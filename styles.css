@@ -1,2 +1,35 @@
 
-/* Your CSS Code here. */
+        body{
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+        .container{
+            
+            margin: 40px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: aqua;
+            flex-wrap: wrap;
+            width: 40vw;
+            height: 50vh;
+            padding: 10px;
+            border: 3px solid black;
+            border-radius: 10px;
+        }
+        .moviePic{
+            margin-top: 20px;
+            height: 25vh;
+            width: 25vw;
+            opacity: 0.8;
+        }
+        .movieDetail{
+            position: relative;
+            font-size: 20px;
+            width: 20vw;
+            text-align: center;
+            top: 2px;
+        }
+
